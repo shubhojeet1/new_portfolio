@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 
 
 function ProjectCards(props) {
@@ -19,6 +20,13 @@ function ProjectCards(props) {
           <a href={props.demoLink} target="_blank" rel="noopener noreferrer">
             <Button variant="primary" className="mt-auto">
               <CgWebsite /> &nbsp; Demo
+            </Button>
+          </a>
+        )}
+         {props.githubLink && (
+          <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
+            <Button variant="dark" className="mt-2">
+              <FaGithub /> &nbsp; GitHub
             </Button>
           </a>
         )}

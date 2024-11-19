@@ -8,6 +8,7 @@ import comicbook from "../../Assets/Projects/comicbook.png";
 import timesavor from "../../Assets/Projects/timesavor.png";
 import atv from "../../Assets/Projects/atv.png";
 import phila from "../../Assets/Projects/phila.png";
+import yt from "../../Assets/Projects/yt.jpg";
 
 function Projects() {
   return (
@@ -28,7 +29,6 @@ function Projects() {
               title="Timesavor"
               description="TimeSavor is a platform connecting wine enthusiasts to the heart of wine country. Users can discover wineries, plan personalized itineraries, and enjoy expert recommendations. Whether for a quick visit or an extended getaway, TimeSavor makes every wine-tasting experience seamless and memorable, offering tools to explore and savor with ease."
               demoLink="https://www.timesavor.io"
-            
             />
           </Col>
 
@@ -79,6 +79,17 @@ function Projects() {
               title="Activity Tracker"
               description="Activity Tracker is a platform designed to help users monitor and track their daily activities with ease. Whether it's steps, workouts, or overall health goals, users can log and visualize their progress. With personalized insights and motivation, the platform encourages a healthier lifestyle, helping users stay on top of their fitness and well-being every day."
               demoLink="https://activity-tracker-orpin.vercel.app"
+              githubLink="https://github.com/shubhojeet1/Activity-Tracker-/tree/main/activity-tracker"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={yt}
+              isBlog={false}
+              title="YouTube Mini"
+              description="Activity Tracker is a platform designed to help users monitor and track their daily activities with ease. Whether it's steps, workouts, or overall health goals, users can log and visualize their progress. With personalized insights and motivation, the platform encourages a healthier lifestyle, helping users stay on top of their fitness and well-being every day."
+              demoLink="https://jc-mini-youtube.netlify.app/"
+              githubLink="https://github.com/shubhojeet1/youtube-mini"
             />
           </Col>
         </Row>
