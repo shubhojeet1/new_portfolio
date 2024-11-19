@@ -60,8 +60,8 @@ function Contact() {
               zIndex: 1,
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Get in Touch with <strong className="purple">Me</strong>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px"  }}>
+            <span   style={{color:"white"}}> Get in Touch with</span>  <strong className="purple">Me</strong>
             </h1>
 
             {/* Display success/error messages */}
@@ -70,7 +70,7 @@ function Contact() {
 
             <Form onSubmit={handleSubmit}>
               <Form.Group controlId="formName">
-                <Form.Label>Name</Form.Label>
+                <Form.Label style={{color:"white"}}>Name</Form.Label>
                 <Form.Control
                   type="text"
                   name="name"
@@ -82,7 +82,7 @@ function Contact() {
               </Form.Group>
 
               <Form.Group controlId="formEmail">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label  style={{color:"white"}}>Email address</Form.Label>
                 <Form.Control
                   type="email"
                   name="email"
@@ -94,7 +94,7 @@ function Contact() {
               </Form.Group>
 
               <Form.Group controlId="formMessage">
-                <Form.Label>Message</Form.Label>
+                <Form.Label  style={{color:"white"}}>Message</Form.Label>
                 <Form.Control
                   as="textarea"
                   rows={4}
