@@ -27,11 +27,11 @@ function NavBar() {
   // Handle the resume download and open in new tab
   const handleResumeClick = () => {
     // Open the resume link in a new tab
-    window.open("https://drive.google.com/file/d/14t8wETIlJNYJwxcyOjPFUcsI8Q_2yBZN/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1JddJmRLxlTSMU1tJk7dfNIHkgkJuqrFC/view?usp=share_link", "_blank");
 
     // Trigger the download
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=14t8wETIlJNYJwxcyOjPFUcsI8Q_2yBZN";
+    link.href = "https://drive.google.com/uc?export=download&id=1JddJmRLxlTSMU1tJk7dfNIHkgkJuqrFC";
     link.download = "Resume.pdf"; // You can specify the name of the downloaded file
     link.click();
   };
